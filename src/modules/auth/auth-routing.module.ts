@@ -31,7 +31,7 @@ export const ROUTES: Routes = [
         canActivate: [],
         component: authContainers.LoginComponent,
         data: {
-            title: 'Pages Login - Url Catalog',
+            title: 'Pages Login - Url Book',
         } as SBRouteData,
     },
     {
@@ -39,7 +39,7 @@ export const ROUTES: Routes = [
         canActivate: [],
         component: authContainers.RegisterComponent,
         data: {
-            title: 'Pages Register - Url Catalog Angular',
+            title: 'Pages Register - Url Book Angular',
         } as SBRouteData,
     },
 ];

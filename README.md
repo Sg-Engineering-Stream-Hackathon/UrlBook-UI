@@ -1,13 +1,36 @@
-Url Catalog  Front End  -- Angular 9 : repo for all your organization internal websites
+Url Book  Front End  -- Angular 9 : repo for all your organization internal websites
 
-Git Link : Link to be updated
-To run in Local : Download this repo from above link and do "npm install" in your terminal pointing to this folder
+## Table of contents
+* [General info](#general-info)
+* [Introduction](#Introduction)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+##Titles and internal titles
+UrlBook
+
+##Introduction - the project's aim
+UrlBook is an application deals with creating card/bookmark for shorted url and catalog of such cards. User has option to manage complex and log urls and share it.
 
 
-For CD/CI
+##Technologies
+Project is created with :
+Dot net core 3.1
+Angular 9
 
-CI -- Travis -- Link to be updated
-Coverage  -- CodeCov -- Link to be updated
-CD -- Heroku 
+##Launch
+Web api - https://urlbook.herokuapp.com/
+Git hub - https://github.com/purukumar16/UrlBookApi
 
+##Scope of functionalities 
+- Register and login
+- create card of shorted url
+- Approve shorted url card
+- create a catalog of cards
+- share the catalog
+
+## Setup
+To run this project, install it locally using npm:
+$ npm install
+$ npm start
 
