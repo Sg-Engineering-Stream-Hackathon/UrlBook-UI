@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "UrlCatalog-FrontEnd": {
+    "UrlBook-UI": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/UrlCatalog-FrontEnd",
+            "outputPath": "dist/UrlBook-UI",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -77,18 +77,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "UrlCatalog-FrontEnd:build"
+            "browserTarget": "UrlBook-UI:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "UrlCatalog-FrontEnd:build:production"
+              "browserTarget": "UrlBook-UI:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "UrlCatalog-FrontEnd:build"
+            "browserTarget": "UrlBook-UI:build"
           }
         },
         "test": {
@@ -131,18 +131,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "UrlCatalog-FrontEnd:serve"
+            "devServerTarget": "UrlBook-UI:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "UrlCatalog-FrontEnd:serve:production"
+              "devServerTarget": "UrlBook-UI:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "UrlCatalog-FrontEnd",
+  "defaultProject": "UrlBook-UI",
   "cli": {
     "analytics": false
   }

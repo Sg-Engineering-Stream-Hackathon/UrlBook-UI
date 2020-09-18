@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 const path = require('path');
 
-app.use(express.static(__dirname + '/dist/UrlCatalog-FrontEnd'));
+app.use(express.static(__dirname + '/dist/UrlBook-UI'));
 
 app.listen(process.env.PORT || 5000);
 
